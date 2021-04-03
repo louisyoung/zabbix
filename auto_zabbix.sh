@@ -13,7 +13,7 @@ export PATH
 # 获取操作系统位数
 sys_num=`getconf LONG_BIT`
 # zabbix服务端IP
-ServerIP='zabbix.365starlink.tk'
+ServerIP='106.75.54.149'
 # 获取客户端服务器的IP
 AgentIP=`ip a show dev eth0|grep -w inet|awk '{print $2}'|awk -F '/' '{print $1}'`
 # 配置文件
